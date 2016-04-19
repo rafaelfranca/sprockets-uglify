@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/Shopify/schmooze.git
+  revision: 648181c45022c8de6df83b1faca6cd0de6496a93
+  specs:
+    schmooze (0.1.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -131,8 +137,6 @@ GEM
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifier (3.0.0)
-      execjs (>= 0.3.0, < 3)
     web-console (2.3.0)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
@@ -149,11 +153,11 @@ DEPENDENCIES
   jquery-rails
   rails (= 4.2.6)
   sass-rails (~> 5.0)
+  schmooze!
   sdoc (~> 0.4.0)
   spring
   sqlite3
   turbolinks
-  uglifier (>= 1.3.0)
   web-console (~> 2.0)
 
 BUNDLED WITH
